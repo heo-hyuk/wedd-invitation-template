@@ -4,7 +4,7 @@ pages_build_output_dir = "dist"
 
 [[kv_namespaces]]
 binding = "KV"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "1087b41373ab4a27bbfe8e97091b256e"
 
 [vars]
 # ADMIN_KEY는 보안을 위해 아래 명령어로 시크릿으로 설정하세요:

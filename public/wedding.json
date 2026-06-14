@@ -1,0 +1,61 @@
+{
+  "groom": {
+    "name": "신랑이름",
+    "fatherName": "신랑아버지",
+    "motherName": "신랑어머니",
+    "phone": "010-0000-0000"
+  },
+  "bride": {
+    "name": "신부이름",
+    "fatherName": "신부아버지",
+    "motherName": "신부어머니",
+    "phone": "010-0000-0000"
+  },
+  "date": "2025-01-01",
+  "time": "12:00",
+  "venue": {
+    "name": "예식장 이름",
+    "hall": "홀 이름",
+    "address": "주소",
+    "phone": "",
+    "lat": 37.5665,
+    "lng": 126.9780,
+    "directions": {
+      "subway": "",
+      "bus": "",
+      "car": "",
+      "parking": ""
+    }
+  },
+  "greeting": "두 사람이 하나가 되는 날\n소중한 자리에 함께해 주세요.",
+  "coverImage": "",
+  "gallery": [],
+  "accounts": [],
+  "contacts": [],
+  "design": {
+    "theme": "light",
+    "keyColor": "#d4a5a5",
+    "pointColor": "#d4a5a5",
+    "fontFamily": "Noto Serif KR",
+    "effect": "none"
+  },
+  "sections": [
+    { "id": "cover",       "type": "cover",       "visible": true },
+    { "id": "greeting",    "type": "greeting",    "visible": true },
+    { "id": "weddingInfo", "type": "weddingInfo", "visible": true },
+    { "id": "gallery",     "type": "gallery",     "visible": true },
+    { "id": "location",    "type": "location",    "visible": true },
+    { "id": "contact",     "type": "contact",     "visible": true },
+    { "id": "account",     "type": "account",     "visible": true },
+    { "id": "rsvp",        "type": "rsvp",        "visible": true },
+    { "id": "guestbook",   "type": "guestbook",   "visible": true }
+  ],
+  "language": "ko",
+  "bgm": {
+    "type": "none",
+    "url": "",
+    "name": "",
+    "autoPlay": false,
+    "volume": 0.5
+  }
+}

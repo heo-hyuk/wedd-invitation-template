@@ -128,7 +128,7 @@ export default function Rsvp() {
                 <RadioGroup
                   options={[{ value: '1', label: t.rsvp.count1 }, { value: '2', label: t.rsvp.count2 }, { value: '3+', label: t.rsvp.count3 }]}
                   value={count}
-                  onChange={setCount}
+                  onChange={v => setCount(v)}
                 />
               </div>
               <div style={{ animation: 'fadeInUp 0.45s ease both' }}>
@@ -136,7 +136,7 @@ export default function Rsvp() {
                 <RadioGroup
                   options={[{ value: 'yes', label: t.rsvp.mealYes }, { value: 'no', label: t.rsvp.mealNo }]}
                   value={meal}
-                  onChange={setMeal}
+                  onChange={v => setMeal(v)}
                 />
               </div>
             </>
